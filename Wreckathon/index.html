@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Eternal Pomodoro — Productivity Can’t Be Stopped</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>🕰️ Eternal Pomodoro</h1>
+    <p class="tagline">focus forever. finish never.</p>
+
+    <section class="timer-card">
+      <div id="timer-display">25:00</div>
+
+      <div class="controls">
+        <button id="startBtn">Start</button>
+        <button id="pauseBtn">Pause</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+
+      <div class="toggles">
+        <label><input type="checkbox" id="unstoppableToggle" /> Unstoppable Mode</label>
+        <label><input type="checkbox" id="asmrToggle" /> Enable ASMR Whispers</label>
+      </div>
+    </section>
+
+    <section class="quote">
+      <div id="quoteText">Be the cloud, not the rain… or maybe the rain? Idk, you got this!</div>
+    </section>
+
+    <section class="log">
+      <h3>Cosmic Glitch Log</h3>
+      <ul id="logList"></ul>
+    </section>
+
+    <footer>
+      <small>when (rarely) you finish, you’ll earn exactly <b>1 imaginary productivity point</b>.</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
