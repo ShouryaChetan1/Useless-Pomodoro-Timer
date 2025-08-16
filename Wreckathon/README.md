@@ -1,7 +1,5 @@
 # Wreckathon
 
-A simple web project consisting of an HTML, CSS, and JavaScript file. This project serves as a starting point for web development and can be customized for hackathons, prototypes, or learning purposes.
-
 Demo Video link- https://github.com/user-attachments/assets/014fcfbd-9d7a-4446-93b5-254cc7ed29ac
 
 ## Project Structure
@@ -39,4 +37,5 @@ Feel free to fork the project and submit pull requests for improvements or new f
 ## License
 
 This project is open source and available under the MIT License.
+
 
